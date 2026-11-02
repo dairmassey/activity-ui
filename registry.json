@@ -1,0 +1,44 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "activity-ui",
+  "homepage": "https://dairmassey.github.io/activity-ui",
+  "items": [
+    {
+      "name": "activity-assets",
+      "type": "registry:item",
+      "title": "Activity figure files",
+      "description": "All 12 animated SVG files, added to public/activity.",
+      "files": []
+    },
+    {
+      "name": "activity-figure",
+      "type": "registry:ui",
+      "title": "Activity Figure",
+      "description": "A pictogram figure walking, running or cycling in a smooth, endless loop.",
+      "registryDependencies": [
+        "activity-assets"
+      ],
+      "files": [
+        {
+          "path": "registry/activity/ui/activity-figure.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "celebration-figure",
+      "type": "registry:ui",
+      "title": "Celebration Figure",
+      "description": "An endless looping animation: the figure keeps moving with arms pumping under confetti.",
+      "registryDependencies": [
+        "activity-figure"
+      ],
+      "files": [
+        {
+          "path": "registry/activity/ui/celebration-figure.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+  ]
+}

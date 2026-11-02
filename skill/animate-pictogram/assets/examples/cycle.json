@@ -1,0 +1,66 @@
+{
+ "source": "figure.svg",
+ "label": "Person cycling",
+ "props": [
+  1,
+  2
+ ],
+ "chest": [
+  42,
+  20
+ ],
+ "pelvis": [
+  34,
+  32
+ ],
+ "twin_arms": true,
+ "twin_legs": true,
+ "arms": [
+  {
+   "elbow": [
+    54,
+    27
+   ],
+   "hand": [
+    66,
+    27
+   ]
+  },
+  {
+   "elbow": [
+    54,
+    27
+   ],
+   "hand": [
+    66,
+    27
+   ]
+  }
+ ],
+ "legs": [
+  {
+   "knee": [
+    47,
+    47
+   ],
+   "foot": [
+    44,
+    63
+   ]
+  },
+  {
+   "knee": [
+    47,
+    47
+   ],
+   "foot": [
+    44,
+    63
+   ]
+  }
+ ],
+ "motion": {
+  "type": "pedal"
+ },
+ "arm_scale": 0.85
+}

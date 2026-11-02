@@ -1,0 +1,68 @@
+{
+ "source": "figure.svg",
+ "label": "Person celebrating",
+ "chest": [
+  27.5,
+  26
+ ],
+ "pelvis": [
+  24,
+  46
+ ],
+ "arms": [
+  {
+   "elbow": [
+    14,
+    31
+   ],
+   "hand": [
+    4,
+    37
+   ]
+  },
+  {
+   "elbow": [
+    37,
+    34
+   ],
+   "hand": [
+    47,
+    44
+   ]
+  }
+ ],
+ "legs": [
+  {
+   "knee": [
+    35.6,
+    60
+   ],
+   "foot": [
+    35.8,
+    84
+   ]
+  },
+  {
+   "knee": [
+    15.8,
+    62
+   ],
+   "foot": [
+    9.7,
+    84
+   ]
+  }
+ ],
+ "motion": {
+  "type": "celebrate",
+  "activity": "walk",
+  "colors": [
+   "#009CE9",
+   "#FF1700",
+   "#C314B6",
+   "#0D4C8B"
+  ]
+ },
+ "arm_ratio": 0.65,
+ "arm_width": 0.48
+}

@@ -1,0 +1,60 @@
+{
+ "source": "figure.svg",
+ "label": "Person running",
+ "chest": [
+  46,
+  28
+ ],
+ "pelvis": [
+  41,
+  50
+ ],
+ "arms": [
+  {
+   "elbow": [
+    30,
+    23
+   ],
+   "hand": [
+    20,
+    33
+   ]
+  },
+  {
+   "elbow": [
+    65,
+    32
+   ],
+   "hand": [
+    77,
+    40
+   ]
+  }
+ ],
+ "legs": [
+  {
+   "knee": [
+    49,
+    65
+   ],
+   "foot": [
+    58,
+    82
+   ]
+  },
+  {
+   "knee": [
+    23,
+    60
+   ],
+   "foot": [
+    5,
+    64
+   ]
+  }
+ ],
+ "motion": {
+  "type": "run"
+ },
+ "arm_scale": 0.74
+}
